@@ -156,19 +156,20 @@ ol {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    border: 4px solid #f44336;
+    border: 4px solid #dfa974;
+    /* border: 4px solid #f44336; */
     border-left-color: transparent;
   }
   50% {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-    border: 4px solid #673ab7;
+    border: 4px solid #dfa974;
     border-left-color: transparent;
   }
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    border: 4px solid #f44336;
+    border: 4px solid #dfa974;
     border-left-color: transparent;
   }
 }
@@ -331,6 +332,18 @@ ol {
   border-radius: 50%;
   margin-right: 10px;
 }
+
+
+.language-option .flag__bg{
+  width: 50px;
+  box-shadow: 0px 0px 1px 1px #000;
+}
+
+.language-option .link {
+  margin-top: 17px;
+}
+
+
 .top-nav .tn-right .language-option span {
   font-size: 16px;
   color: #19191a;
@@ -366,6 +379,8 @@ ol {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  vertical-align: middle;
+
 }
 .top-nav .tn-right .language-option .flag-dropdown ul li a:hover {
   /* color: #dfa974; */
@@ -701,6 +716,7 @@ ol {
 .testimonial-slider.owl-carousel .owl-item img {
   width: auto;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 .testimonial-slider.owl-carousel .owl-nav button {
   height: 44px;
@@ -1136,7 +1152,9 @@ ol {
 /*-----------------------
   Room Details Section
 -------------------------*/
-
+.room-details-section .row{
+justify-content: center;
+}
 .room-details-section {
   padding-top: 0;
   padding-bottom: 80px;
@@ -1868,9 +1886,9 @@ ol {
   box-shadow: 0px 14px 35px rgba(0, 0, 0, 0.15);
   margin-top: 75px;
 }
-.map iframe {
-  /* width: 100%;social */
-}
+/* .map iframe {
+   width: 100%;
+} */
 
 li .social:hover {
   color: #dfa974 !important;
@@ -1963,12 +1981,12 @@ li .social {
     position: absolute;
     right: 40px;
     top: 25px;
-    font-size: 22px;
-    width: 30px;
-    height: 30px;
-    color: #19191a;
-    border: 1px solid #19191a;
-    border-radius: 2px;
+    font-size: 35px;
+    width: 35px;
+    height: 35px;
+    color: #dfa974;
+    border: 1px solid #dfa974;
+    border-radius: 1px;
     line-height: 33px;
     text-align: center;
     z-index: 100;
@@ -2021,6 +2039,7 @@ li .social {
     padding: 13px 0;
     position: relative;
     margin-bottom: 10px;
+    vertical-align: middle; 
   }
   .offcanvas-menu-wrapper
     .header-configure-area
@@ -2105,6 +2124,9 @@ li .social {
 		text-transform: uppercase;
 		letter-spacing: 2px;
 	} */
+
+
+
   .offcanvas-menu-wrapper .mainmenu {
     display: none;
   }
@@ -2182,7 +2204,7 @@ li .social {
   }
   .offcanvas-menu-wrapper .top-widget li {
     list-style: none;
-    font-size: 16px;
+    font-size: 15px;
     color: #19191a;
     font-weight: 500;
     line-height: 28px;
@@ -2218,6 +2240,9 @@ li .social {
   }
   .hero-text {
     margin-bottom: 40px;
+  }
+  div.logo{
+    display: none;
   }
 }
 /* Tablet Device: 768px */
