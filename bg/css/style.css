@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  font-family: "Cabin", sans-serif;
+  /* font-family: "Cabin", sans-serif; */
   -webkit-font-smoothing: antialiased;
   /* font-smoothing: antialiased; */
 }
