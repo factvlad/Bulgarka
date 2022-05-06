@@ -59,7 +59,7 @@
     dots: true,
     animateOut: "fadeOut",
     animateIn: "fadeIn",
-    smartSpeed: 2000,
+    smartSpeed: 4500,
     autoHeight: false,
     autoplay: true,
     mouseDrag: false,
