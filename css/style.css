@@ -663,6 +663,10 @@ ol {
   position: relative;
   overflow: hidden;
 }
+.hp-room-items .hp-room-item.top{
+  margin-bottom: 15px;
+}
+
 .hp-room-items .hp-room-item:hover .hr-text {
   bottom: 135px;
 }
