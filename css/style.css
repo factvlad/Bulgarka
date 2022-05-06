@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  font-family: "Cabin", sans-serif;
+  /* font-family: "Cabin", sans-serif; */
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -662,9 +662,9 @@ ol {
   position: relative;
   overflow: hidden;
 }
-.hp-room-items .hp-room-item.top{
-  /* margin-bottom: 15px; */
-}
+/* .hp-room-items .hp-room-item.top{
+  margin-bottom: 15px;
+} */
 
 .hp-room-items .hp-room-item:hover .hr-text {
   bottom: 135px;
@@ -1559,7 +1559,6 @@ justify-content: center;
 
 li .social:hover {
   color: #dfa974 !important;
-  /* color: #a31c2a !important; */
 }
 
 li .social {
