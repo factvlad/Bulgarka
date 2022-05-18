@@ -66,14 +66,6 @@
   });
 
   /*------------------
-		Date Picker
-	--------------------*/
-  $(".date-input").datepicker({
-    minDate: 0,
-    dateFormat: "dd MM, yy",
-  });
-
-  /*------------------
 		Flow Scroll
 	--------------------*/
 
@@ -85,8 +77,4 @@
     $("html, body").animate({ scrollTop: dn }, 1200);
   });
 
-  /*------------------
-		Nice Select
-	--------------------*/
-  $("select").niceSelect();
 })(jQuery);
