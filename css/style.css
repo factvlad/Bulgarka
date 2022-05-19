@@ -1394,7 +1394,7 @@ li .social {
   color: #dfa974;
 }
 .top-widget a:last-child {
-  font-size: 13.8px;
+  font-size: 13.5px;
 }
 .menu-logo {
   max-width: 85%;
@@ -1437,7 +1437,7 @@ li .social {
     bottom: 80px;
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
   .top-nav {
     display: none;
   }
