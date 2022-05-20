@@ -586,9 +586,9 @@ ol {
   position: relative;
   overflow: hidden;
 }
-/* .hp-room-items .hp-room-item.top{
+.hp-room-items .hp-room-item.top:first-child {
   margin-bottom: 15px;
-} */
+}
 
 .hp-room-items .hp-room-item:hover .hr-text {
   bottom: 135px;
@@ -1404,11 +1404,16 @@ li .social {
   max-width: 55%;
 }
 
+
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
 @media only screen and (min-width: 1554px) and (max-width: 1920px) {
   .hp-room-items .hp-room-item .hr-text {
     bottom: -200px;
+  }
+  .col-lg-3 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1250px) {
@@ -1420,10 +1425,15 @@ li .social {
   .container {
     max-width: 1170px;
   }
+  .col-lg-3 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
 }
 /* Medium Device: 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  
   .testimonial-slider.owl-carousel .owl-nav button {
     left: -150px;
   }
@@ -1431,13 +1441,23 @@ li .social {
     right: -150px;
   }
   .hp-room-items .hp-room-item .hr-text {
-    bottom: -322px;
+    bottom: -275px;
   }
   .hp-room-items .hp-room-item:hover .hr-text {
     bottom: 80px;
   }
+  .room__title {
+    font-size: 27px;
+  }
+  .col-lg-3 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
 }
 @media only screen and (max-width: 992px) {
+  .room__title {
+    font-size: 30px;
+  }
   .top-nav {
     display: none;
   }
