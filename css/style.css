@@ -1404,6 +1404,9 @@ li .social {
   max-width: 55%;
 }
 
+.offset-lg-1 {
+  margin-left: 0;
+}
 
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
@@ -1433,7 +1436,6 @@ li .social {
 /* Medium Device: 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  
   .testimonial-slider.owl-carousel .owl-nav button {
     left: -150px;
   }
