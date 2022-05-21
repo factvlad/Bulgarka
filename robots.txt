@@ -1,0 +1,68 @@
+User-agent: Applebot
+User-agent: *
+Allow: /
+
+
+User-agent: baiduspider
+User-agent: *
+Allow: /
+
+
+User-agent: Bingbot
+User-agent: *
+Allow: /
+
+
+User-agent: DuckDuckBot
+User-agent: *
+Allow: /
+
+
+User-agent: Googlebot
+User-agent: *
+Allow: /
+
+
+User-agent: ia_archiver
+User-agent: *
+Allow: /
+
+
+User-agent: msnbot
+User-agent: *
+Allow: /
+
+User-agent: Naverbot
+User-agent: *
+Allow: /
+
+
+User-agent: seznambot
+User-agent: *
+Allow: /
+
+
+User-agent: Slurp
+User-agent: *
+Allow: /
+
+
+User-agent: teoma
+User-agent: *
+Allow: /
+
+
+User-agent: Twitterbot
+User-agent: *
+Allow: /
+
+
+User-agent: Yandex
+User-agent: *
+Allow: /
+
+
+User-agent: Yeti
+User-agent: *
+Allow: /
+
