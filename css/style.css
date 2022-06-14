@@ -118,7 +118,8 @@ ol {
   font-weight: 700;
   position: relative;
 }
-.primary-btn:after {
+.primary-btn:after,
+.comments:after {
   position: absolute;
   left: 0;
   bottom: -5px;
@@ -132,6 +133,25 @@ ol {
 }
 
 .primary-btn:after:hover {
+  color: #dfa974;
+}
+
+.comments {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 120px;
+  text-align: center;
+  color: #dfa974;
+}
+.comments:hover{
+  color: #dfa974;
+}
+.comments:focus {
   color: #dfa974;
 }
 /* Preloder */
