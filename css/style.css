@@ -149,7 +149,7 @@ ol {
   color: #dfa974;
 }
 .comments:hover{
-  color: #dfa974;
+  color: #0d0d0d;
 }
 .comments:focus {
   color: #dfa974;
@@ -621,7 +621,7 @@ ol {
   position: absolute;
   left: 45px;
   right: 25px;
-  bottom: -240px;
+  bottom: -180px;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -1442,7 +1442,7 @@ li .social {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1250px) {
   .hp-room-items .hp-room-item .hr-text {
-    bottom: -240px;
+    bottom: -200px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -1453,6 +1453,8 @@ li .social {
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
+
+  
 }
 /* Medium Device: 1200px */
 
@@ -1463,11 +1465,12 @@ li .social {
   .testimonial-slider.owl-carousel .owl-nav button.owl-next {
     right: -150px;
   }
-  .hp-room-items .hp-room-item .hr-text {
-    bottom: -275px;
-  }
+
   .hp-room-items .hp-room-item:hover .hr-text {
     bottom: 80px;
+  }
+  .hp-room-items .hp-room-item .hr-text {
+    bottom: -240px;
   }
   .room__title {
     font-size: 27px;
@@ -1824,5 +1827,14 @@ li .social {
   .hero-text p {
     font-size: 17px;
     line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 379px){
+  .hp-room-items .hp-room-item .hr-text{
+    bottom: -280px ;
+  }
+  .hp-room-items .hp-room-item:hover .hr-text {
+    bottom: 60px;
   }
 }
