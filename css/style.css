@@ -1830,24 +1830,17 @@ li .social {
 
 @media only screen and (max-width: 390px) {
   .hp-room-items .hp-room-item .hr-text {
-    bottom: -200px;
+    bottom: -185px;
   }
 }
 @media only screen and (max-width: 375px) {
   .hp-room-items .hp-room-item .hr-text {
-    bottom: -280px;
+    bottom: -240px;
   }
   .hp-room-items .hp-room-item:hover .hr-text {
     bottom: 60px;
   }
 }
-
-@media only screen and (max-width: 375px) {
-  .hp-room-items .hp-room-item .hr-text {
-    bottom: -240px;
-  }
-}
-
 
 @media only screen and (max-width: 330px) {
   .hp-room-items .hp-room-item .hr-text {
