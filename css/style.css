@@ -1836,7 +1836,7 @@ li .social {
 
 @media only screen and (max-width: 360px) {
   .hp-room-items .hp-room-item .hr-text {
-    bottom: -230px;
+    bottom: -235px;
   }
   .hp-room-items .hp-room-item:hover .hr-text {
     bottom: 60px;
