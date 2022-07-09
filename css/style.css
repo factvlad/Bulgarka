@@ -1842,6 +1842,13 @@ li .social {
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .hp-room-items .hp-room-item .hr-text {
+    bottom: -240px;
+  }
+}
+
+
 @media only screen and (max-width: 330px) {
   .hp-room-items .hp-room-item .hr-text {
     bottom: -300px;
