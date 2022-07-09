@@ -1833,7 +1833,7 @@ li .social {
     bottom: -185px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 365px) {
   .hp-room-items .hp-room-item .hr-text {
     bottom: -240px;
   }
@@ -1843,9 +1843,7 @@ li .social {
 }
 
 @media only screen and (max-width: 330px) {
-  .hp-room-items .hp-room-item .hr-text {
-    bottom: -300px;
-  }
+
   .room__title {
     font-size: 27px;
   }
