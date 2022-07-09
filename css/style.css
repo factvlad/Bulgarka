@@ -1830,13 +1830,13 @@ li .social {
 
 @media only screen and (max-width: 390px) {
   .hp-room-items .hp-room-item .hr-text {
-    bottom: -190px;
+    bottom: -195px;
   }
 }
 
 @media only screen and (max-width: 360px) {
   .hp-room-items .hp-room-item .hr-text {
-    bottom: -235px;
+    bottom: -240px;
   }
   .hp-room-items .hp-room-item:hover .hr-text {
     bottom: 60px;
