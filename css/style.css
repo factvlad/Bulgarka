@@ -148,7 +148,7 @@ ol {
   text-align: center;
   color: #dfa974;
 }
-.comments:hover{
+.comments:hover {
   color: #0d0d0d;
 }
 .comments:focus {
@@ -1453,8 +1453,6 @@ li .social {
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
-
-  
 }
 /* Medium Device: 1200px */
 
@@ -1830,25 +1828,25 @@ li .social {
   }
 }
 
-@media only screen and (max-width: 390px){
-  .hp-room-items .hp-room-item .hr-text{
-    bottom: -200px ;
+@media only screen and (max-width: 390px) {
+  .hp-room-items .hp-room-item .hr-text {
+    bottom: -200px;
   }
 }
-@media only screen and (max-width: 379px){
-  .hp-room-items .hp-room-item .hr-text{
-    bottom: -280px ;
+@media only screen and (max-width: 379px) {
+  .hp-room-items .hp-room-item .hr-text {
+    bottom: -280px;
   }
   .hp-room-items .hp-room-item:hover .hr-text {
     bottom: 60px;
   }
 }
 
-@media only screen and (max-width: 330px){
-  .hp-room-items .hp-room-item .hr-text{
-    bottom: -300px ;
+@media only screen and (max-width: 330px) {
+  .hp-room-items .hp-room-item .hr-text {
+    bottom: -300px;
   }
-  .room__title{
+  .room__title {
     font-size: 27px;
   }
 }
