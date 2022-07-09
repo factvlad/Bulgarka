@@ -1833,7 +1833,7 @@ li .social {
     bottom: -200px;
   }
 }
-@media only screen and (max-width: 379px) {
+@media only screen and (max-width: 375px) {
   .hp-room-items .hp-room-item .hr-text {
     bottom: -280px;
   }
